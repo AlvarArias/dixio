@@ -28,8 +28,8 @@ Combine framework provides a declarative Swift API for processing values over ti
 The app is localized in three languages: Swedish, Spanish, and English, providing a broad range of users with access to its features.
 
 
-## Frames
-The app use AVplayer apple frame to strean and play the word sound from the internet.
+## Frameworks
+The app use AVplayer Apple framework to strean and play the word sound from the internet.
 
 ### Video
 https://user-images.githubusercontent.com/7523384/231676223-a123bdf7-23dd-4632-8979-5f98551f0335.mov
