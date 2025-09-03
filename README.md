@@ -1,40 +1,62 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/7523384/231671652-23e15e19-e2cf-44ad-a15b-7ef747ee2fcf.png"  width="200" height="200">
-  <h1 align="center">Dixio is a dictionary SwiftUI App</h1>
+  <img src="https://user-images.githubusercontent.com/7523384/231671652-23e15e19-e2cf-44ad-a15b-7ef747ee2fcf.png" width="200" height="200">
+  <h1 align="center">Dixio</h1>
+  <h3 align="center">A Spanish / Swedish Dictionary App built with SwiftUI</h3>
 </p>
 
-## Introduction: 
-Introducing Dixio App, is a dictionary Spanish / Swedish App , designed to provide users with synonyms, definitions, and pronunciations of words.
+---
 
-## App overview 
-Dioxio App is a comprehensive dictionary application that combines various technologies to provide users with a seamless experience when searching for word definitions, synonyms, and pronunciations
+## Introduction
 
-## Read Data
-The app uses an open JSON API from "Lexin på net," which is a collaboration between the Institute for Language and Folklore and the Royal Institute of Technology of Sweden. 
-This API provides the app with the necessary word data. [here](https://lexin.nada.kth.se/lexin/#about=1;main=3;)
+**Dixio** is a dictionary app designed to provide users with synonyms, definitions, and pronunciations of Spanish and Swedish words.
 
+---
 
-## Record data
-Dioxio App utilizes Core Data to save selected words, which allows users to view their search history. 
+## Features
 
-## Data arquitecture
-The app utilizes the Model-View-ViewModel (MVVM) architecture for the data model.
-This pattern separates the application into three main components - model (data), view (presentation), and view model (logic) - to improve organization and maintainability. 
+- Search for definitions, synonyms, and pronunciations.
+- Uses an open JSON API from [Lexin på net](https://lexin.nada.kth.se/lexin/#about=1;main=3;) for word data.
+- Save selected words using Core Data to view search history.
+- MVVM architecture for maintainable and organized code.
+- Error handling and notifications using the Combine framework.
+- Localized in Swedish, Spanish, and English.
+- Plays word pronunciations using AVPlayer.
+- Available on the [App Store](https://apps.apple.com/app/dixio/id6446829036).
 
-To handle errors and notifications to the user interface, Dioxio App employs Combine.
-Combine framework provides a declarative Swift API for processing values over time. Documentation [here](https://developer.apple.com/documentation/combine) 
+---
 
-## Localization
-The app is localized in three languages: Swedish, Spanish, and English, providing a broad range of users with access to its features.
+## Screenshots & Video
 
+- ![App Logo](https://user-images.githubusercontent.com/7523384/231671652-23e15e19-e2cf-44ad-a15b-7ef747ee2fcf.png)
+- [Demo Video](https://user-images.githubusercontent.com/7523384/231676223-a123bdf7-23dd-4632-8979-5f98551f0335.mov)
 
-## Frameworks
-The app use AVplayer Apple framework to strean and play the word sound from the internet.
+---
 
-### Video
-https://user-images.githubusercontent.com/7523384/231676223-a123bdf7-23dd-4632-8979-5f98551f0335.mov
+## Installation
 
-Download <br>
-<a href="https://apps.apple.com/app/dixio/id6446829036">App Store</a>
-<br>
-@Alvar Arias
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/AlvarArias/dixio.git
+    ```
+2. Open `dixio.xcodeproj` in Xcode.
+3. Build and run on your preferred device or simulator.
+
+---
+
+## Usage
+
+- Search for a word in either Spanish or Swedish.
+- Tap a word for synonyms, definitions, and to hear its pronunciation.
+- Save words to your search history for quick access later.
+
+---
+
+## License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+---
+
+## Author
+
+[@Alvar Arias](https://github.com/AlvarArias)
